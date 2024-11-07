@@ -46,7 +46,7 @@ public class BaseClass {
 	public void logout() {
 		Reporter.log("Log out", true);
 		HomePage h=new HomePage(driver);
-		h.setLogout();;;
+		h.setLogout();
 	}
 	
 
