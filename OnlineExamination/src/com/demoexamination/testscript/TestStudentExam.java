@@ -1,5 +1,9 @@
 package com.demoexamination.testscript;
 
-public class TestStudentExam {
+import com.demoexamination.generic.BaseClass;
+
+public class TestStudentExam extends BaseClass{
+	
+	
 
 }
