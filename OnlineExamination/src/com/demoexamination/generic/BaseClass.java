@@ -19,6 +19,7 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
 	public static WebDriver driver;
+	@SuppressWarnings("deprecation")
 	@BeforeTest
 	public void openBrowser() {
 		Reporter.log("Open Browser", true);
